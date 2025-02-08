@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-50 text-gray-800">
+    <header class="bg-gradient-to-r from-pink-200 to-pink-400 text-white p-6 shadow-md rounded-b-xl">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-pink-600">My Portfolio</h1>
+            <nav class="space-x-4">
+                <a href="#profile" class="hover:underline text-pink-500">Profile</a>
+                <a href="#portfolio" class="hover:underline text-pink-500">Portfolio</a>
+                <a href="#contact" class="hover:underline text-pink-500">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="profile" class="py-16 bg-gradient-to-r from-teal-100 to-teal-200">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-6 text-center text-pink-600">Profile</h2>
+            <div class="flex flex-col md:flex-row items-center bg-white p-6 rounded-lg shadow-lg">
+                <img class="w-48 h-48 rounded-full border-4 border-pink-300 mb-4 md:mb-0 md:mr-8" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/471882765_8722104951190965_2176481889330163471_n.jpg?stp=dst-jpg_s640x640_tt6&_nc_cat=100&ccb=1-7&_nc_sid=0024fc&_nc_ohc=P6oX5WfJP0QQ7kNvgEAFwbi&_nc_oc=AdgkE4jQy_mhuA-FkN2vXCOh6Ov9HqIoBqjJRvcNRcf85rNJ-2bRI0IQVirgxfn0pi7t9YXFMMQ4tHtUKZoUsQ32&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1gHpQ_xAlDXqEjHS8g_4Pu7eSdI98cRHZW7lmcq03QYqLw&oe=67CD7A52" alt="Profile Picture">
+                <div>
+                    <p class="text-lg font-bold text-pink-600"><strong>นาย วิสิษฎ์ หีดชะนา</strong></p>
+                    <p>รหัสนักศึกษา: 6640011067</p>
+                    <p>Facebook: <a href="https://www.facebook.com/profile.php?id=100077164295623" target="_blank" class="text-blue-500 hover:underline">Smile Valentine</a></p>
+                    <p>อายุ: 20 ปี | สัญชาติ: ไทย</p>
+                    <p>โทร: 092-265-3302</p>
+                    <p>Email: zoomtv9521@gmail.com</p>
+                    <p>ที่อยู่: 3/55 ถนนพระยาเมือง ตำบลรูสะมิเเล อำเภอเมือง จังหวัดปัตตานี 94000</p>
+                    <h2 class="text-lg font-bold text-pink-600">การศึกษา</h2>
+                            <li>มัธยมศึกษาตอนปลาย: โรงเรียนปัตตนยานุกูล - เกรดเฉลี่ย: 3.15</li>
+                            <li>ปริญญาตรี: มหาวิทยาลัยสงขลานครินทร์วิทยาเขตสุราษฎร์ธานี - เกรดเฉลี่ย: 2.57</li>
+                        </ul>
+                            <div>
+                                <h2 class="text-lg font-bold text-pink-600">ทักษะการใช้โปรเเกรม</h2>
+                                <p>Microsoft Office, Excel, PowerPoint, Vscode, Android Studio, Thunkable</p>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-16 bg-gradient-to-r from-indigo-100 to-indigo-200">
+        <div class="container mx-auto">
+            <h2 class="text-2xl font-bold mb-6 text-center text-pink-600">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://i.ytimg.com/vi/MJmhXn2FpyA/maxresdefault.jpg" alt="งานที่ 1" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold text-pink-600">Basic HTML - Exercise 1</h3>
+                        <button class="mt-4 bg-pink-400 text-white px-4 py-2 rounded-lg hover:bg-pink-500 transition" onclick="window.location.href='ex1_menu.html'">Go to Next Page</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWanrWlYwG7jEYSUrynaRu7DFshnZ9XVNRqA&s" alt="งานที่ 2" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold text-pink-600">Form - Exercise 2</h3>
+                        <button class="mt-4 bg-pink-400 text-white px-4 py-2 rounded-lg hover:bg-pink-500 transition" onclick="window.location.href='ex2_form.html'">Go to Next Page</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://www.musicarms.net/wp-content/uploads/2020/05/%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%99%E0%B8%82%E0%B8%B2%E0%B8%A2%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B8%94%E0%B8%99%E0%B8%95%E0%B8%A3%E0%B8%B5%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99.jpg" alt="งานที่ 3" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold text-pink-600">Box Model - Exercise 3</h3>
+                        <button class="mt-4 bg-pink-400 text-white px-4 py-2 rounded-lg hover:bg-pink-500 transition" onclick="window.location.href='ex3_box_model.html'">Go to Next Page</button>
+                    </div>
+                </div>
+                <!-- Portfolio Item 4 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://kiji.life/eats/wp-content/uploads/2019/05/DSC_2983-1024x684.jpg" alt="งานที่ 4" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-lg font-bold text-pink-600">Page Layout - Exercise 4</h3>
+                        <button class="mt-4 bg-pink-400 text-white px-4 py-2 rounded-lg hover:bg-pink-500 transition" onclick="window.location.href='ex4_page_layout.html'">Go to Next Page</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-16 bg-gradient-to-r from-teal-100 to-teal-200">
+        <div class="container mx-auto text-center">
+            <h2 class="text-2xl font-bold mb-6 text-pink-600">Contact</h2>
+            <p>ติดต่อได้ที่ <a href="mailto:6640011067@psu.ac.th" class="text-blue-500 hover:underline">6640011067@psu.ac.th</a></p>
+        </div>
+    </section>
+
+    <footer class="bg-pink-400 text-white py-4 text-center rounded-t-xl">
+        <p>&copy; 2025 วิสิษฎ์ หีดชะนา</p>
+    </footer>  
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 แบบฟอร์มรับสมัครศิษย์เก่า IT + IS 🌸</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-100 font-sans">
+    <div class="container mx-auto p-8">
+        <header class="text-center mb-8">
+            <h1 class="text-3xl font-bold text-pink-600 mb-2">🌷 แบบฟอร์มรับสมัครศิษย์เก่า IT + IS 🌷</h1>
+            <p class="text-gray-600">กรุณากรอกข้อมูลให้ครบถ้วนและถูกต้อง 💖</p>
+        </header>
+
+        <form action="#" method="post" enctype="multipart/form-data" class="bg-white p-6 rounded-lg shadow-md border-4 border-pink-300">
+            <div class="mb-4">
+                <label for="fullName" class="block text-pink-700 font-medium">✨ ชื่อ-สกุล:</label>
+                <input type="text" id="fullName" name="fullName" placeholder="🌸 ระบุชื่อ-สกุลของคุณ 🌸" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring focus:ring-pink-200">
+            </div>
+            <div class="mb-4">
+                <label for="studentID" class="block text-pink-700 font-medium">📌 รหัสนักศึกษา:</label>
+                <input type="text" id="studentID" name="studentID" placeholder="🎓 ระบุรหัสนักศึกษา" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring focus:ring-pink-200">
+            </div>
+            <div class="mb-4">
+                <label for="gender" class="block text-pink-700 font-medium">🌟 เพศ:</label>
+                <select id="gender" name="gender" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring focus:ring-pink-200">
+                    <option value="male">👦 ชาย</option>
+                    <option value="female">👧 หญิง</option>
+                    <option value="other">🌈 อื่นๆ</option>
+                </select>
+            </div>
+            <div class="mb-4">
+                <label for="admissionYear" class="block text-pink-700 font-medium">📅 ปีการศึกษาที่เข้าศึกษา:</label>
+                <input type="number" id="admissionYear" name="admissionYear" placeholder="🗓️ ระบุปีการศึกษา" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring focus:ring-pink-200">
+            </div>
+            <div class="mb-4">
+                <label for="address" class="block text-pink-700 font-medium">🏡 ที่อยู่:</label>
+                <textarea id="address" name="address" rows="4" placeholder="📍 ระบุที่อยู่ของคุณ" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring focus:ring-pink-200"></textarea>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-pink-700 font-medium">📧 อีเมล:</label>
+                <input type="email" id="email" name="email" placeholder="💌 example@email.com" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring focus:ring-pink-200">
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block text-pink-700 font-medium">📞 เบอร์โทรศัพท์:</label>
+                <input type="tel" id="phone" name="phone" placeholder="📱 ระบุเบอร์โทรศัพท์" required class="w-full mt-2 p-3 border rounded-lg focus:outline-none focus:ring focus:ring-pink-200">
+            </div>
+            <div class="flex justify-center space-x-4 mt-6">
+                <button type="submit" class="bg-pink-500 text-white py-2 px-6 rounded-lg hover:bg-pink-600 focus:outline-none focus:ring focus:ring-pink-300">✨ ส่งข้อมูล ✨</button>
+                <button type="button" onclick="window.location.href='index.html'" class="bg-gray-500 text-white py-2 px-6 rounded-lg hover:bg-gray-600 focus:outline-none focus:ring focus:ring-gray-300">🔙 กลับ</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="text-center mt-8 text-pink-600">
+        <p>💕 &copy; 2025 สวิส บุตรรักษ์ 💕</p>
+    </footer>
+</body>
+</html>
